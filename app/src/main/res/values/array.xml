@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="ctype">
+        <item>显示图片</item>
+        <item>aa  120183101055</item>
+        <item>cc  120183101055</item>
+        <item>bb  120183101055</item>
+        <item>dd  120183101055</item>
+    </string-array>
+</resources>
