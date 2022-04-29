@@ -24,11 +24,15 @@ public class MyActivity extends AppCompatActivity {
             @Override
             public void onItemClick(AdapterView<?> adapterView, View view, int i, long l) {
 
-                if (i==0){
+                if (i == 0){
                     startActivity(new Intent(MyActivity.this,ImageActivity.class));
                 }
                 if (i == 1){
-                    
+                    Intent intent = new Intent(MyActivity.this,SettingActivity.class);
+                    Bundle bundle = new Bundle();
+                    bundle.putString("system","系统设置");
+                    intent.putExtras(bundle);
+                    startActivity(intent);
                 } else {
                     int a = i+1;
                     String result = adapterView.getItemAtPosition(i).toString(); //获取选择项的值
