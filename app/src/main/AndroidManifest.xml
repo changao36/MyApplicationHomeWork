@@ -27,8 +27,18 @@
         <activity android:name=".SettingActivity">
 
         </activity>
+
+        <activity android:name=".DeliverActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
     </application>
 
     <uses-permission android:name="android.permission.WRITE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 </manifest>
