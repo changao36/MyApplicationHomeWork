@@ -13,8 +13,8 @@ import androidx.annotation.Nullable;
 
 public class DetailFragment extends Fragment {
 
-    String[] strings = new String[]{"用户信息","网络设置","亮度设置",
-            "音量亮度","其他设置"};
+    String[] strings = new String[]{"用户信息", "网络设置", "亮度设置",
+            "音量亮度", "其他设置"};
 
     public static DetailFragment newInstance(int index) {
 
@@ -26,8 +26,8 @@ public class DetailFragment extends Fragment {
         return fragment;
     }
 
-    public int getShownIndex(){
-        return getArguments().getInt("index",0); //获取要显示的列表项索引
+    public int getShownIndex() {
+        return getArguments().getInt("index", 0); //获取要显示的列表项索引
 
     }
 
