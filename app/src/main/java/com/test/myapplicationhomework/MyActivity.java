@@ -48,6 +48,10 @@ public class MyActivity extends AppCompatActivity {
                     startActivity(intent);
 
                 }
+                if(i==3){
+                    Intent intent = new Intent(MyActivity.this,MyphoneSettingActivity.class);
+                    startActivity(intent);
+                }
                 else {
                     int a = i + 1;
                     String result = adapterView.getItemAtPosition(i).toString(); //获取选择项的值
