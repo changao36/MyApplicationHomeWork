@@ -35,6 +35,10 @@
         <activity android:name=".BillingActivity">
 
         </activity>
+
+        <activity android:name=".MP3Activity">
+
+        </activity>
         <activity android:name=".DeliverActivity"
             android:exported="true">
             <intent-filter>
@@ -48,6 +52,7 @@
             android:exported="true"/>
     </application>
 
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.WRITE_SETTINGS"
         tools:ignore="ProtectedPermissions" />
 

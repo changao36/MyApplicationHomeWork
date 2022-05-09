@@ -56,6 +56,10 @@ public class MyActivity extends AppCompatActivity {
                     Intent intent = new Intent(MyActivity.this,BillingActivity.class);
                     startActivity(intent);
                 }
+                if (i==5){
+                    Intent intent = new Intent(MyActivity.this,MP3Activity.class);
+                    startActivity(intent);
+                }
                 else {
                     int a = i + 1;
                     String result = adapterView.getItemAtPosition(i).toString(); //获取选择项的值
