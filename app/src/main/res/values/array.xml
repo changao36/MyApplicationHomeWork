@@ -2,9 +2,11 @@
 <resources>
     <string-array name="ctype">
         <item>显示图片</item>
-        <item>aa  120183101055</item>
-        <item>cc  120183101055</item>
-        <item>bb  120183101055</item>
-        <item>dd  120183101055</item>
+        <item>手机设置</item>
+        <item>数据传送</item>
+        <item>手机菜单</item>
+        <item>记账单</item>
+        <item>音乐播放</item>
+        <item>test7</item>
     </string-array>
 </resources>

@@ -27,16 +27,16 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent;
-                intent =getIntent();
+                intent = getIntent();
                 Bundle bundle = intent.getExtras();
-                if(username.getText().toString().equals("admin")&&password.getText().toString().equals("123456")){
-                    Toast.makeText(MainActivity.this,"登陆成功！",Toast.LENGTH_SHORT).show();
-                    startActivity(new Intent(MainActivity.this,MyActivity.class));
+                if (username.getText().toString().equals("admin") && password.getText().toString().equals("123456")) {
+                    Toast.makeText(MainActivity.this, "登陆成功！", Toast.LENGTH_SHORT).show();
+                    startActivity(new Intent(MainActivity.this, MyActivity.class));
 
-                }else if (username.getText().toString().equals("")||password.getText().toString().equals("")){
-                    Toast.makeText(MainActivity.this,"用户名和密码不能为空！",Toast.LENGTH_SHORT).show();
-                }else {
-                    Toast.makeText(MainActivity.this,"登录失败，用户名或密码错误！",Toast.LENGTH_SHORT).show();
+                } else if (username.getText().toString().equals("") || password.getText().toString().equals("")) {
+                    Toast.makeText(MainActivity.this, "用户名和密码不能为空！", Toast.LENGTH_SHORT).show();
+                } else {
+                    Toast.makeText(MainActivity.this, "登录失败，用户名或密码错误！", Toast.LENGTH_SHORT).show();
                 }
             }
         });
