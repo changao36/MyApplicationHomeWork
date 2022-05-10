@@ -93,7 +93,7 @@ public class ImageActivity extends AppCompatActivity {
                         public boolean onItemLongClick(AdapterView<?> parent, View view, int position, long id) {
 
                             AlertDialog alert = new AlertDialog.Builder(ImageActivity.this).create();
-                            alert.setIcon(R.drawable.img05);
+                            alert.setIcon(R.drawable.notice);
                             alert.setTitle("系统提示");
                             alert.setMessage("确认删除此图片？");
 

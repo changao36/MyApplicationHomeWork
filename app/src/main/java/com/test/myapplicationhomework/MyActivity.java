@@ -59,6 +59,9 @@ public class MyActivity extends AppCompatActivity {
                 if (i==5){
                     Intent intent = new Intent(MyActivity.this,MP3Activity.class);
                     startActivity(intent);
+                }if (i==6){
+                    Intent intent = new Intent(MyActivity.this,MusicActivity.class);
+                    startActivity(intent);
                 }
                 else {
                     int a = i + 1;

@@ -137,7 +137,7 @@ public class MP3Activity extends Activity {
                     channel1.write(byteBuffer);
                 }
                 byteBuffer.clear();
-                Message m = handler.obtainMessage();
+                Message m = handler.obtainMessage();//获得空消息对象
                 m.what = 0x101;
                 m.arg1 = progress;
                 handler.sendMessage(m);
